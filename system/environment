@@ -1,0 +1,57 @@
+# GNOME_SHELL_SLOWDOWN_FACTOR=0.5
+
+SDL_GAMECONTROLLERCONFIG="0300f98c632500007505000011010000,Ipega PG 9099,platform:Linux,a:b0,b:b1,x:b3,y:b4,back:b10,start:b11,guide:b12,leftshoulder:b6,rightshoulder:b7,leftstick:b13,rightstick:b14,leftx:a0,lefty:a1,rightx:a2,righty:a3,lefttrigger:b8,righttrigger:b9,dpup:h0.1,dpleft:h0.8,dpdown:h0.4,dpright:h0.2,crc:8cf9,"
+# SDL_JOYSTICK_HIDAPI=0
+
+# GTK_USE_PORTAL=1
+
+QT_QPA_PLATFORMTHEME=windows
+QT_STYLE_OVERRIDE=windows
+
+# KWIN_DRM_USE_MODIFIERS=1
+
+# QT_QPA_PLATFORMTHEME=qt5ct
+# QT_STYLE_OVERRIDE=qt5ct
+
+LIBVA_DRIVER_NAME=nvidia
+VDPAU_DRIVER=nvidia
+GBM_BACKEND=nvidia-drm
+DRI_PRIME=1
+__GLX_VENDOR_LIBRARY_NAME=nvidia
+# __GL_GSYNC_ALLOWED=0
+# __GL_VRR_ALLOWED=0
+__NV_PRIME_RENDER_OFFLOAD=1
+__VK_LAYER_NV_optimus=NVIDIA_only
+VK_ICD_FILENAMES=/usr/share/vulkan/icd.d/nvidia_icd.json
+__EGL_VENDOR_LIBRARY_FILENAMES=/usr/share/glvnd/egl_vendor.d/10_nvidia.json
+
+# __GL_SHADER_DISK_CACHE=1
+# __GL_SHADER_DISK_CACHE_SIZE=104857600
+
+# XDG_CURRENT_DESKTOP=sway
+# XDG_SESSION_DESKTOP=sway
+XDG_SESSION_TYPE=wayland
+
+# WLR_NO_HARDWARE_CURSORS=1
+# WLR_DRM_DEVICES=/dev/dri/card1
+# AQ_DRM_DEVICES=/dev/dri/card1
+# WLR_RENDERER=vulkan
+# GSK_RENDERER=vulkan
+# GDK_VULKAN_DEVICE=10de:2c02
+# MESA_VK_DEVICE_SELECT=10de:2c02
+
+# QT_QPA_PLATFORM=wayland
+# CLUTTER_BACKEND=wayland
+# SDL_VIDEODRIVER=wayland
+# MOZ_ENABLE_WAYLAND=1
+# ELECTRON_OZONE_PLATFORM_HINT=wayland
+# _JAVA_AWT_WM_NONREPARENTING=1
+
+# https://github.com/ublue-os/bazzite/blob/main/system_files/nvidia/shared/usr/bin/bazzite-steam#L9C8-L9C37
+# __GL_CONSTANT_FRAME_RATE_HINT=3
+
+# https://github.com/NVIDIA/open-gpu-kernel-modules/discussions/620
+# __GL_MaxFramesAllowed=1
+
+# https://www.reddit.com/r/swaywm/comments/ntszm9/comment/h0ubwrz
+# vblank_mode=0
